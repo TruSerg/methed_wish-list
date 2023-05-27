@@ -13,8 +13,8 @@ body {
   min-height: 100vh;
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  background-color: #365aba;
-  color: #fff;
+  background: #365ABA;
+  color: #FFFFFF;
 }
 
 img,
@@ -42,8 +42,8 @@ a {
 ul,
 ol {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -57,12 +57,12 @@ p {
 fieldset {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 0;
 }
 
 .container {
-  max-width: 1772px;
-  padding: 0 30px;
+  max-width: 1792px;
+  padding: 0 40px;
   margin: 0 auto;
 }
 
@@ -80,14 +80,54 @@ fieldset {
 
 .btn {
   padding: 10px 20px;
-  background-color: #ffffff;
+  background: #FFFFFF;
   border-radius: 15px;
   font-size: 34px;
   text-transform: capitalize;
-  color: #365aba;
+  color: #365ABA;
 }
 
 .btn_castling {
-  background-color: #365aba;
-  color: #ffffff;
+  background: #365ABA;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1700px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .btn {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 22px;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 34px;
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  .btn_castling {
+    font-size: 24px;
+  }
 }
