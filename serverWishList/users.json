@@ -1,0 +1,42 @@
+[
+  {
+    "id": "667c4e49-face-4482-b0d4-579fe4e26a62",
+    "login": "truserg",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Sergey1984"
+  },
+  {
+    "id": "cc156625-26ee-4369-b373-41ad199bf908",
+    "login": "Sergey",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Ser1984"
+  },
+  {
+    "id": "8166322d-25e8-4299-af5a-f4987af56cb4",
+    "login": "Ser",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Ser1984"
+  },
+  {
+    "id": "2c2cb56a-9f48-4d63-b454-45b74422aa38",
+    "login": "Frank",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Ser1984"
+  },
+  {
+    "id": "c970e310-6c0c-4d07-97be-2f53556a0d2f",
+    "login": "Carl",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Ser1984"
+  }
+]
