@@ -1,7 +1,8 @@
 import { JWT_TOKEN_KEY } from "./const.js";
 import { createHero } from "./createHero.js";
-import { getLogin } from "./getLogin.js";
+import { getLogin } from "./serviceAPI.js";
 import { renderNavigation } from "./renderNavigation.js";
+import { createWishList } from "./createWishList.js";
 
 export const router = Router();
 
@@ -37,8 +38,8 @@ const init = () => {
   router.on("/", handleHomePage);
   router.on("/editwish/newwish", handleEditPageRoute);
   router.on("/editwish/:id", handleEditPageRoute);
-  router.on("/editprofile/login", handleEditProfileRoute);
-  router.on("/user/login", handleUserRoute);
+  router.on("/editprofile/:login", handleEditProfileRoute);
+  router.on("/user/:login", handleUserRoute);
 
   router.init();
 

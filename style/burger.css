@@ -28,12 +28,12 @@
   .burger__line {
     top: 50%;
     transform: translateY(-50%);
-    transition: opacity 0.2s ease;
+    transition: opacity .2s ease;
   }
 
   .burger:after,
   .burger:before {
-    content: "";
+    content: '';
     transition: transform 0.3s ease-out, top 0.3s ease-out;
   }
 
@@ -52,13 +52,13 @@
 
   .burger.burger_active:before {
     top: 50%;
-    transform: rotate(45deg);
-  }
+    transform: rotate(45deg)
+  } 
 
   .burger.burger_active:after {
     top: 50%;
-    transform: rotate(-45deg);
-  }
+    transform: rotate(-45deg)
+  } 
 }
 
 @media (max-width: 740px) {

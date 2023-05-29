@@ -38,5 +38,21 @@
     "avatar": "avatars/empty.png",
     "birthdate": "",
     "password": "Ser1984"
+  },
+  {
+    "id": "f50f3aba-e5fd-48aa-a86d-2b50f5369878",
+    "login": "petr",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Sergey1984"
+  },
+  {
+    "id": "60b83507-1287-433f-a322-bf72564e24bf",
+    "login": "john",
+    "wish": {},
+    "avatar": "avatars/empty.png",
+    "birthdate": "",
+    "password": "Sergey1984"
   }
 ]
