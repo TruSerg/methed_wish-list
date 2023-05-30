@@ -3,6 +3,7 @@ import { createHero } from "./createHero.js";
 import { getLogin } from "./serviceAPI.js";
 import { renderNavigation } from "./renderNavigation.js";
 import { createWishList } from "./createWishList.js";
+import { createEditProfile } from "./createEditProfile.js";
 
 export const router = Router();
 
@@ -14,7 +15,15 @@ const app = document.querySelector(".app");
 
 const handleEditPageRoute = (id) => {};
 
-const handleEditProfileRoute = (login) => {};
+const handleEditProfileRoute = async (login) => {
+  app.textContent = "";
+
+  const { sectionEditProfile, formProfile } = await createEditProfile(login);
+
+  renderNavigation("profile", formProfile);
+
+  app.append(sectionEditProfile);
+};
 
 const handleUserRoute = async (login) => {
   app.textContent = "";
